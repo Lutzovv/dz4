@@ -29,10 +29,8 @@ int main() {
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
 			std::cout << arr1[i][j] << " ";
-			if (j == size - 1) {
-				std::cout << "\n";
 			}
-		}
+		std::cout << "\n";
 	}
 
 	std::cout << "\n\n";
@@ -40,10 +38,8 @@ int main() {
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
 			std::cout << arr2[i][j] << " ";
-			if (j == size - 1) {
-				std::cout << "\n";
-			}
 		}
+		std::cout << "\n";
 	}
 
 	return 0;
